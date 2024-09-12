@@ -97,9 +97,10 @@ class MD5:
         return message_hash
 
     def evaluator(self):
-        real_md5 = hashlib.md5(self.string.encode("utf-8")).hexdigest()
+        str1 = self.string
+        str2 = hashlib.md5(self.string.encode("utf-8")).hexdigest()
 
-        str1 = self.string + ' ' * (len(real_md5) - len(self.string))
-        str2 = real_md5 + ' ' * (len(self.string) - len(real_md5))
+        str1 = str1 + ' ' * (len(str2) - len(str1))
+        str2 = str2 + ' ' * (len(str1) - len(str2))
         return sum(1 if i == j else 0
                    for i, j in zip(str1, str2)) / float(len(str1))
