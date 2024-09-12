@@ -12,3 +12,6 @@ class MD5:
     def get_string(self):
         return self.string
 
+    def get_buffers_rotate(self):
+        return self.buffers_rotate
+
