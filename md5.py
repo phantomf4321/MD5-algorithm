@@ -97,7 +97,7 @@ class MD5:
         return message_hash
 
     def evaluator(self):
-        real_md5 = hashlib.md5(self.string)
+        real_md5 = hashlib.md5(self.string.encode("utf-8")).hexdigest()
 
         return real_md5
 
