@@ -13,5 +13,6 @@ class MD5:
         return self.string
 
     def get_buffers_rotate(self):
+        # This list maintains the amount by which to rotate the buffers during processing stage
         return self.buffers_rotate
 
