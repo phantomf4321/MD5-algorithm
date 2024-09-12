@@ -87,8 +87,8 @@ class MD5:
         raw = digest.to_bytes(16, byteorder='little')
         return '{:032x}'.format(int.from_bytes(raw, byteorder='big'))
 
-    def md5(self, msg):
-        msg = bytearray(msg,
+    def md5(self):
+        msg = bytearray(self.string,
                         'ascii')
         msg = self.pad(msg)
         processed_msg = self.processMessage(msg)
