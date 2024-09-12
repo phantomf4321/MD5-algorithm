@@ -10,6 +10,8 @@ class MD5:
 			 6, 10, 15, 21, 6, 10, 15, 21, 6, 10, 15, 21, 6, 10, 15, 21]
 
         self.constant = [int(abs(math.sin(i+1)) * 4294967296) & 0xFFFFFFFF for i in range(64)]
+        self.init_MDBuffer = [0x67452301, 0xefcdab89, 0x98badcfe, 0x10325476]
+
 
     def get_string(self):
         return self.string
@@ -22,6 +24,9 @@ class MD5:
         # This list maintains the additive constant to be added in each processing step.
         return self.constant
 
+    def get_init_MDBuffer(self):
+        return self.init_MDBuffer
+
     def pad(self, msg):
         msg_len_in_bits = (8 * len(msg)) & 0xffffffffffffffff
         msg.append(0x80)
@@ -32,4 +37,8 @@ class MD5:
         msg += msg_len_in_bits.to_bytes(8, byteorder='little')
 
         return msg
+
+    def leftRotate(self, x, amount):
+        x &= 0xFFFFFFFF
+        return (x << amount | x >> (32 - amount)) & 0xFFFFFFFF
 
