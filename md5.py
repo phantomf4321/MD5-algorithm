@@ -22,3 +22,14 @@ class MD5:
         # This list maintains the additive constant to be added in each processing step.
         return self.constant
 
+    def pad(self, msg):
+        msg_len_in_bits = (8 * len(msg)) & 0xffffffffffffffff
+        msg.append(0x80)
+
+        while len(msg) % 64 != 56:
+            msg.append(0)
+
+        msg += msg_len_in_bits.to_bytes(8, byteorder='little')
+
+        return msg
+
