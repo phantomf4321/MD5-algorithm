@@ -1,5 +1,5 @@
 import math
-
+import hashlib
 class MD5:
     def __init__(self, string):
         print("MD5 constructor is called on {}".format(string))
@@ -95,4 +95,9 @@ class MD5:
         message_hash = self.MD_to_hex(processed_msg)
 
         return message_hash
+
+    def evaluator(self):
+        real_md5 = hashlib.md5(self.string)
+
+        return real_md5
 
