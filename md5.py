@@ -83,5 +83,7 @@ class MD5:
 
         return sum(buffer_content << (32 * i) for i, buffer_content in enumerate(init_temp))
 
-
+    def MD_to_hex(self, digest):
+        raw = digest.to_bytes(16, byteorder='little')
+        return '{:032x}'.format(int.from_bytes(raw, byteorder='big'))
 
