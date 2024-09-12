@@ -9,10 +9,16 @@ class MD5:
 			 4, 11, 16, 23, 4, 11, 16, 23, 4, 11, 16, 23, 4, 11, 16, 23,
 			 6, 10, 15, 21, 6, 10, 15, 21, 6, 10, 15, 21, 6, 10, 15, 21]
 
+        self.constant = [int(abs(math.sin(i+1)) * 4294967296) & 0xFFFFFFFF for i in range(64)]
+
     def get_string(self):
         return self.string
 
     def get_buffers_rotate(self):
         # This list maintains the amount by which to rotate the buffers during processing stage
         return self.buffers_rotate
+
+    def get_constant(self):
+        # This list maintains the additive constant to be added in each processing step.
+        return self.constant
 

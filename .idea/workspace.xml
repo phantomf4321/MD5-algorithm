@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc8049f7-7098-4c71-a1b5-923a4cd8919f" name="Changes" comment="MD5 get_string test">
+    <list default="true" id="bc8049f7-7098-4c71-a1b5-923a4cd8919f" name="Changes" comment="MD5 buffers_rotate comment">
       <change beforePath="$PROJECT_DIR$/md5.py" beforeDir="false" afterPath="$PROJECT_DIR$/md5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726154068044</updated>
-      <workItem from="1726154097633" duration="620000" />
+      <workItem from="1726154097633" duration="943000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -143,7 +143,35 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۸" />
       <updated>1726154707383</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL‎−۰۰۰۰۹" summary="MD5 buffers_rotate">
+      <option name="closed" value="true" />
+      <created>1726154807972</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۹" />
+      <updated>1726154807972</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۰" summary="MD5 buffers_rotate test">
+      <option name="closed" value="true" />
+      <created>1726154829716</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۰" />
+      <updated>1726154829716</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۱" summary="MD5 buffers_rotate">
+      <option name="closed" value="true" />
+      <created>1726154838172</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۱" />
+      <updated>1726154838172</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۲" summary="MD5 buffers_rotate comment">
+      <option name="closed" value="true" />
+      <created>1726154866270</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۲" />
+      <updated>1726154866270</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +184,9 @@
     <MESSAGE value="MD5 class init test" />
     <MESSAGE value="MD5 get_string" />
     <MESSAGE value="MD5 get_string test" />
-    <option name="LAST_COMMIT_MESSAGE" value="MD5 get_string test" />
+    <MESSAGE value="MD5 buffers_rotate" />
+    <MESSAGE value="MD5 buffers_rotate comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="MD5 buffers_rotate comment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -169,6 +199,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MD5_algorithm$main.coverage" NAME="main Coverage Results" MODIFIED="1726154706326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MD5_algorithm$main.coverage" NAME="main Coverage Results" MODIFIED="1726154828555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
