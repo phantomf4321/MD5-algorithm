@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc8049f7-7098-4c71-a1b5-923a4cd8919f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="bc8049f7-7098-4c71-a1b5-923a4cd8919f" name="Changes" comment="MD5 get_string test">
+      <change beforePath="$PROJECT_DIR$/md5.py" beforeDir="false" afterPath="$PROJECT_DIR$/md5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
@@ -20,8 +33,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -66,19 +85,90 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726154068044</updated>
-      <workItem from="1726154097633" duration="15000" />
+      <workItem from="1726154097633" duration="620000" />
     </task>
+    <task id="LOCAL‎−۰۰۰۰۱" summary="init">
+      <option name="closed" value="true" />
+      <created>1726154367097</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۱" />
+      <updated>1726154367097</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۲" summary="init">
+      <option name="closed" value="true" />
+      <created>1726154411033</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۲" />
+      <updated>1726154411033</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۳" summary="init mdf">
+      <option name="closed" value="true" />
+      <created>1726154466014</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۳" />
+      <updated>1726154466014</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۴" summary="MD5 class init">
+      <option name="closed" value="true" />
+      <created>1726154539099</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۴" />
+      <updated>1726154539099</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۵" summary="MD5 class init">
+      <option name="closed" value="true" />
+      <created>1726154593621</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۵" />
+      <updated>1726154593621</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۶" summary="MD5 class init test">
+      <option name="closed" value="true" />
+      <created>1726154637478</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۶" />
+      <updated>1726154637478</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۷" summary="MD5 get_string">
+      <option name="closed" value="true" />
+      <created>1726154680835</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۷" />
+      <updated>1726154680835</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۸" summary="MD5 get_string test">
+      <option name="closed" value="true" />
+      <created>1726154707383</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۸" />
+      <updated>1726154707383</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="init mdf" />
+    <MESSAGE value="MD5 class init" />
+    <MESSAGE value="MD5 class init test" />
+    <MESSAGE value="MD5 get_string" />
+    <MESSAGE value="MD5 get_string test" />
+    <option name="LAST_COMMIT_MESSAGE" value="MD5 get_string test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MD5_algorithm$main.coverage" NAME="main Coverage Results" MODIFIED="1726154706326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
