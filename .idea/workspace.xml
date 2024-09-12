@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc8049f7-7098-4c71-a1b5-923a4cd8919f" name="Changes" comment="MD5 MD_to_hex">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md5.py" beforeDir="false" afterPath="$PROJECT_DIR$/md5.py" afterDir="false" />
-    </list>
+    <list default="true" id="bc8049f7-7098-4c71-a1b5-923a4cd8919f" name="Changes" comment="MD5 evaluator test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726154068044</updated>
-      <workItem from="1726154097633" duration="1589000" />
+      <workItem from="1726154097633" duration="1925000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -228,7 +225,28 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۲۰" />
       <updated>1726155651310</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL‎−۰۰۰۲۱" summary="MD5 MD_to_hex">
+      <option name="closed" value="true" />
+      <created>1726155736348</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۱" />
+      <updated>1726155736348</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۲۲" summary="MD5 evaluator">
+      <option name="closed" value="true" />
+      <created>1726155855160</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۲" />
+      <updated>1726155855160</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۲۳" summary="MD5 evaluator test">
+      <option name="closed" value="true" />
+      <created>1726156003246</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۳" />
+      <updated>1726156003246</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +265,9 @@
     <MESSAGE value="MD5 pad" />
     <MESSAGE value="MD5 leftRotate" />
     <MESSAGE value="MD5 MD_to_hex" />
-    <option name="LAST_COMMIT_MESSAGE" value="MD5 MD_to_hex" />
+    <MESSAGE value="MD5 evaluator" />
+    <MESSAGE value="MD5 evaluator test" />
+    <option name="LAST_COMMIT_MESSAGE" value="MD5 evaluator test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -260,6 +280,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MD5_algorithm$main.coverage" NAME="main Coverage Results" MODIFIED="1726155687977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MD5_algorithm$main.coverage" NAME="main Coverage Results" MODIFIED="1726155996232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
