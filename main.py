@@ -7,9 +7,9 @@ if __name__ == '__main__':
 
 
     def test_pad():
-        msg = bytearray("test")
+        msg = bytearray("test", "ascii")
         print(msg)
-        padded_msg = md5pad(msg)
+        padded_msg = md5.pad(msg)
         print(padded_msg)
 
 
