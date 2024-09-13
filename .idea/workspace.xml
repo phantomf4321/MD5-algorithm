@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc8049f7-7098-4c71-a1b5-923a4cd8919f" name="Changes" comment="Start development">
+    <list default="true" id="bc8049f7-7098-4c71-a1b5-923a4cd8919f" name="Changes" comment="add comment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md5.py" beforeDir="false" afterPath="$PROJECT_DIR$/md5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726154068044</updated>
       <workItem from="1726154097633" duration="3296000" />
-      <workItem from="1726241050370" duration="1271000" />
+      <workItem from="1726241050370" duration="2099000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -295,7 +294,21 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۲۹" />
       <updated>1726156787133</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL‎−۰۰۰۳۰" summary="add comment">
+      <option name="closed" value="true" />
+      <created>1726242892273</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۰" />
+      <updated>1726242892273</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۳۱" summary="add comment">
+      <option name="closed" value="true" />
+      <created>1726242917421</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۱" />
+      <updated>1726242917421</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +331,8 @@
     <MESSAGE value="MD5 evaluator test" />
     <MESSAGE value="final test" />
     <MESSAGE value="Start development" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start development" />
+    <MESSAGE value="add comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
