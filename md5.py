@@ -42,8 +42,8 @@ class MD5:
         msg.append(0x80)
 
         """
-        appending 0x00 bytes until the total length 
-        of the message in bytes mod 64) is exactly 56
+        appending  0x00  bytes until the total  length 
+        of the message in  bytes mod 64) is exactly 56
         """
         while len(msg) % 64 != 56:
             msg.append(0)
