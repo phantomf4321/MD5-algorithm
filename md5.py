@@ -27,12 +27,27 @@ class MD5:
     def get_init_MDBuffer(self):
         return self.init_MDBuffer
 
+    """
+    The first  step  in  the  MD5  algorithm  involves padding 
+    the input message so its  length  (in  bits)  is congruent 
+    to 448  modulo  512.  This is  done by  appending a single 
+    '1' bit followed by enough '0' bits  to reach the required
+    length, ensuring the total message length is a multiple of
+    512 bits.
+    """
     def pad(self, msg):
+
+        # append an 0x80 byte in initial step
         msg_len_in_bits = (8 * len(msg)) & 0xffffffffffffffff
         msg.append(0x80)
 
+        """
+        appending 0x00 bytes until the total length 
+        of the message in bytes mod 64) is exactly 56
+        """
         while len(msg) % 64 != 56:
             msg.append(0)
+
 
         msg += msg_len_in_bits.to_bytes(8, byteorder='little')
 
