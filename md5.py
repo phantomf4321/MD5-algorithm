@@ -42,6 +42,7 @@ class MD5:
         msg.append(0x80)
 
         """
+        step2:
         appending  0x00  bytes until the total  length 
         of the message in  bytes mod 64) is exactly 56
         """
