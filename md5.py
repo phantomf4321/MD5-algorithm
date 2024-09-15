@@ -49,6 +49,7 @@ class MD5:
         while len(msg) % 64 != 56:
             msg.append(0)
 
+
         # little endian convention
         msg += msg_len_in_bits.to_bytes(8, byteorder='little')
 
