@@ -10,7 +10,8 @@ class MD5:
 			 6, 10, 15, 21, 6, 10, 15, 21, 6, 10, 15, 21, 6, 10, 15, 21]
 
         self.constants = [int(abs(math.sin(i+1)) * 4294967296) & 0xFFFFFFFF for i in range(64)]
-        self.init_MDBuffer = [0x67452301, 0xefcdab89, 0x98badcfe, 0x10325476]
+        # Initial values initialized in the buffer.
+        self.init_MDBuffer = [0x67452301, 0xefcdab89, 0x98badcfe, 0x10325476] #
 
 
     def get_string(self):
