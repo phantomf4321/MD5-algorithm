@@ -11,7 +11,7 @@ class MD5:
 
         self.constants = [int(abs(math.sin(i+1)) * 4294967296) & 0xFFFFFFFF for i in range(64)]
         # Initial values initialized in the buffer.
-        self.init_MDBuffer = [0x67452301, 0xefcdab89, 0x98badcfe, 0x10325476] #
+        self.init_MDBuffer = [0x67452301, 0xefcdab89, 0x98badcfe, 0x10325476] #4 words A, B, C and D each of 32-bits. we use this values in third step.
 
 
     def get_string(self):
