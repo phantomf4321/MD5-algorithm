@@ -56,6 +56,7 @@ class MD5:
 
         return msg
 
+    # UTILITY/HELPER FUNCTION:
     def leftRotate(self, x, amount):
         x &= 0xFFFFFFFF
         return (x << amount | x >> (32 - amount)) & 0xFFFFFFFF
